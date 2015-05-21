@@ -1,1 +1,15 @@
 <h1>Home Page</h1>
+<a href="/movies/new">Add Movie</a>
+
+<% @movies.each_slice(3) do |slice| %>
+    <div class="row">
+    <% slice.each do |movie| %>
+        <div class="col-md-4 movie">
+            <a href="/movies/<%= movie.id %>"><img src="http://upload.wikimedia.org/wikipedia/en/5/54/Kungpow.jpg"><br>
+            <h2><%= movie.title %></h2></a>
+        </div>
+    <% end %>
+    </div>
+<% end %>
+
+</section>

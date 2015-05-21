@@ -1,0 +1,50 @@
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  top: 50%;
+  position: relative;
+  transform: translate(0%, -50%)
+
+}
+
+body {
+  background: url(https://download.unsplash.com/photo-1422640805998-18a4dd89bec2) no-repeat center center fixed;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+  height: 100%;
+
+}
+
+h3 {
+  color: white;
+}
+
+.fill {
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+#signup {
+  text-align:center;
+}
+
+input {
+  display:block;
+  margin: 0 auto;
+}
+
+.btn-default {
+  float:right;
+  margin-top: 10px;
+  margin-right:10px;
+  background-color: rgba(140,140,140,0.3);
+
+
+}
+

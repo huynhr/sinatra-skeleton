@@ -1,0 +1,66 @@
+label {
+  display:inline-block;
+  width:200px;
+  height:50px;
+}
+
+input {
+  margin-bottom:10px;
+}
+
+.form1 {
+  border:2px solid black;
+  text-align:center;
+  padding-bottom:20px;
+  padding-top:20px;
+  margin-bottom:10px;
+  background-color:#FADD9B;
+}
+
+.title {
+  text-align:center;
+  font-family:Helvetica;
+}
+
+
+.form2 {
+  border:2px solid black;
+  text-align:center;
+  padding-bottom:20px;
+  padding-top:20px;
+  background-color:#FADD9B;
+}
+
+.signupform {
+  width:400px;
+  margin:auto;
+}
+
+* {
+  font-family:Helvetica;
+}
+
+.cheroh1 {
+  background-color:#FADD9B;
+  border:2px solid black;
+}
+
+.fatkid {
+  float:left;
+  display:block;
+}
+
+.ass {
+  float:right;
+  display:block;
+}
+
+.dance {
+  margin-top:10px;
+  width:300px;
+}
+
+.queen{
+  width:300px;
+  margin-top:10px;
+}
